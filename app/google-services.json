@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "235399519268",
+    "firebase_url": "https://pokemonproject-bc116-default-rtdb.firebaseio.com",
+    "project_id": "pokemonproject-bc116",
+    "storage_bucket": "pokemonproject-bc116.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235399519268:android:3e45fbab36b5b2b65c4cb1",
+        "android_client_info": {
+          "package_name": "com.example.pokeapi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-XMfvbHxwCZktXBeSi9-4lB-8GXAhl2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235399519268:android:57f2733200341eeb5c4cb1",
+        "android_client_info": {
+          "package_name": "com.example.pokemonapi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-XMfvbHxwCZktXBeSi9-4lB-8GXAhl2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235399519268:android:2aa50bb29b750da35c4cb1",
+        "android_client_info": {
+          "package_name": "com.example.pokemonproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-XMfvbHxwCZktXBeSi9-4lB-8GXAhl2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

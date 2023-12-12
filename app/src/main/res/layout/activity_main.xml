@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200"
+            android:minHeight="?attr/actionBarSize"
+            app:titleTextColor="@color/white">
+
+            <!-- Your existing Toolbar content -->
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/imageView_setting"
+            android:layout_width="74dp"
+            android:layout_height="83dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/settings" />
+
+    </RelativeLayout>
+
+    <!-- Include the PokemonList fragment directly -->
+    <fragment
+        android:id="@+id/list_pokemon_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.pokeapi.PokemonList"/>
+
+</LinearLayout>

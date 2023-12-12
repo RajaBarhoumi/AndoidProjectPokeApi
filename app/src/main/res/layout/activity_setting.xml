@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFB0F4"
+    tools:context=".activity.SettingActivity">
+
+    <Button
+        android:id="@+id/buttonViewProfile"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:textColor="#FBE9FB"
+        android:background="#D290F6"
+        android:text="View profile" />
+
+    <Button
+        android:id="@+id/buttonUpdateProfile"
+        android:textColor="#FBE9FB"
+        android:background="#D290F6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="206dp"
+        android:text="Update profile" />
+
+    <Button
+        android:id="@+id/buttonChangePwd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="309dp"
+        android:background="#D290F6"
+        android:text="Change password"
+        android:textColor="#FBE9FB" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="302dp"
+        android:background="#D290F6"
+        android:text="Logout"
+        android:textColor="#FBE9FB" />
+
+    <ImageView
+        android:id="@+id/imageViewBack"
+        android:layout_width="65dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/back" />
+
+</RelativeLayout>
